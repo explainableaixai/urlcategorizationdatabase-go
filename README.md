@@ -120,7 +120,7 @@ For content labels on individual article pages at publish time, [website content
 
 ## AI traffic is a special case
 
-General categories place AI products under software or technology, which is too broad for AI policy work. To add risk context, run the hosts through an [AI risk assessment tool](https://www.aitoolsblocklist.com/ai-risk-assessment.php) backed by the dedicated AI register. To separate [sanctioned AI tools](https://www.shadowaitools.com/ai-policy-profiles.php) from unsanctioned ones across the company, the log-scanning service builds that view from existing records.
+General categories place AI products under software or technology, which is too broad for AI policy work. To add risk context, run the hosts through an [AI risk assessment tool](https://www.aitoolsblocklist.com) backed by the dedicated AI register. To separate [sanctioned AI tools](https://www.shadowaitools.com/ai-policy-profiles.php) from unsanctioned ones across the company, the log-scanning service builds that view from existing records.
 
 ## Testing
 
