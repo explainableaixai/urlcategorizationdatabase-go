@@ -1,6 +1,6 @@
 # urlcategorizationdatabase-go
 
-Categorise domains and URLs from Go. This module sends a hostname or URL to the live classifier and returns its content categories, so batch jobs and services can label the web addresses they handle. It complements [the licensed URL category file](https://www.urlcategorizationdatabase.com): the file covers known domains offline, and this client handles everything new.
+Categorise domains and URLs from Go. This module sends a hostname or URL to the live classifier and returns its content categories, so batch jobs and services can label the web addresses they handle. It complements the [URL database download](https://www.urlcategorizationdatabase.com/pricing.php): the file covers known domains offline, and this client handles everything new.
 
 ```bash
 go get github.com/explainableaixai/urlcategorizationdatabase-go
@@ -113,14 +113,14 @@ Pick one form per job and stick to it, or your cache keys will not line up.
 
 - Sales and marketing teams tag lead lists by industry before routing them.
 - Data teams add a category dimension to web analytics or clickstream tables.
-- Security teams label outbound traffic for reporting, then hand blocking decisions to [DNS filtering categories for schools and businesses](https://www.webfilteringdatabase.com), which are built for allow and deny rules.
+- Security teams label outbound traffic for reporting, then hand blocking decisions to [cloud-based web filtering](https://www.webfilteringdatabase.com/web-filtering-database.php), which are built for allow and deny rules.
 - Ad platforms pre-classify inventory to support contextual targeting.
 
-For content labels on individual article pages at publish time, [IAB taxonomy classification over an API](https://www.websitecategorizationapi.com) is the more natural fit.
+For content labels on individual article pages at publish time, [website content classification](https://www.websitecategorizationapi.com) is the more natural fit.
 
 ## AI traffic is a special case
 
-General categories place AI products under software or technology, which is too broad for AI policy work. For [tagging AI chat and coding assistants in URL data](https://www.aitoolsblocklist.com), run the hosts through the dedicated AI register as well. To [see who uses which AI apps across the company](https://www.shadowaitools.com), the log-scanning service builds that view from existing records.
+General categories place AI products under software or technology, which is too broad for AI policy work. To add risk context, run the hosts through an [AI risk assessment tool](https://www.aitoolsblocklist.com/ai-risk-assessment.php) backed by the dedicated AI register. To separate [sanctioned AI tools](https://www.shadowaitools.com/ai-policy-profiles.php) from unsanctioned ones across the company, the log-scanning service builds that view from existing records.
 
 ## Testing
 
